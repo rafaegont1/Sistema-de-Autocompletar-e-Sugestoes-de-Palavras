@@ -1,0 +1,424 @@
+~~~> "segundo" word <~~~
+
+---> Basic tree <---
+
+-Preorder-
+quanto: 180
+princípio: 188
+maneira: 190
+wittgenstein: 190
+social: 213
+sentido: 221
+imanente: 213
+vista: 191
+pensamento: 230
+deve: 229
+pode: 229
+sobre: 228
+condição: 267
+mundo: 278
+priori: 269
+sujeito: 294
+teoria: 368
+modo: 258
+sistema: 234
+É: 191
+
+-Inorder-
+quanto: 180
+maneira: 190
+wittgenstein: 190
+social: 213
+sentido: 221
+imanente: 213
+vista: 191
+pensamento: 230
+deve: 229
+pode: 229
+sobre: 228
+condição: 267
+mundo: 278
+priori: 269
+sujeito: 294
+teoria: 368
+modo: 258
+sistema: 234
+É: 191
+princípio: 188
+
+-Posorder-
+maneira: 190
+wittgenstein: 190
+social: 213
+sentido: 221
+imanente: 213
+vista: 191
+pensamento: 230
+deve: 229
+pode: 229
+sobre: 228
+condição: 267
+mundo: 278
+priori: 269
+sujeito: 294
+teoria: 368
+modo: 258
+sistema: 234
+É: 191
+princípio: 188
+quanto: 180
+
+--- AVL tree ---
+
+-Preorder-
+imanente : 213 : 4
+maneira : 190 : 2
+princípio : 188 : 1
+quanto : 180 : 0
+wittgenstein : 190 : 0
+vista : 191 : 1
+É : 191 : 0
+sistema : 234 : 3
+sobre : 228 : 2
+sentido : 221 : 1
+social : 213 : 0
+deve : 229 : 1
+pode : 229 : 0
+pensamento : 230 : 0
+priori : 269 : 2
+modo : 258 : 1
+condição : 267 : 0
+sujeito : 294 : 1
+mundo : 278 : 0
+teoria : 368 : 0
+
+
+-Inorder-
+quanto : 180 : 0
+princípio : 188 : 1
+wittgenstein : 190 : 0
+maneira : 190 : 2
+É : 191 : 0
+vista : 191 : 1
+imanente : 213 : 4
+social : 213 : 0
+sentido : 221 : 1
+sobre : 228 : 2
+pode : 229 : 0
+deve : 229 : 1
+pensamento : 230 : 0
+sistema : 234 : 3
+modo : 258 : 1
+condição : 267 : 0
+priori : 269 : 2
+mundo : 278 : 0
+sujeito : 294 : 1
+teoria : 368 : 0
+
+
+-Posorder-
+quanto : 180 : 0
+wittgenstein : 190 : 0
+princípio : 188 : 1
+É : 191 : 0
+vista : 191 : 1
+maneira : 190 : 2
+social : 213 : 0
+sentido : 221 : 1
+pode : 229 : 0
+pensamento : 230 : 0
+deve : 229 : 1
+sobre : 228 : 2
+condição : 267 : 0
+modo : 258 : 1
+mundo : 278 : 0
+teoria : 368 : 0
+sujeito : 294 : 1
+priori : 269 : 2
+sistema : 234 : 3
+imanente : 213 : 4
+
+---> Huffman tree <---
+
+-Preorder-
+sentido : 221 : 0000
+sobre : 228 : 0001
+pode : 229 : 0010
+deve : 229 : 0011
+pensamento : 230 : 0100
+sistema : 234 : 0101
+modo : 258 : 0110
+condição : 267 : 0111
+priori : 269 : 1000
+mundo : 278 : 1001
+sujeito : 294 : 1010
+teoria : 368 : 1011
+quanto : 180 : 11000
+princípio : 188 : 11001
+maneira : 190 : 11010
+wittgenstein : 190 : 11011
+É : 191 : 11100
+vista : 191 : 11101
+imanente : 213 : 11110
+social : 213 : 11111
+
+
+-Inorder-
+sentido : 221 : 0000
+sobre : 228 : 0001
+pode : 229 : 0010
+deve : 229 : 0011
+pensamento : 230 : 0100
+sistema : 234 : 0101
+modo : 258 : 0110
+condição : 267 : 0111
+priori : 269 : 1000
+mundo : 278 : 1001
+sujeito : 294 : 1010
+teoria : 368 : 1011
+quanto : 180 : 11000
+princípio : 188 : 11001
+maneira : 190 : 11010
+wittgenstein : 190 : 11011
+É : 191 : 11100
+vista : 191 : 11101
+imanente : 213 : 11110
+social : 213 : 11111
+
+
+-Posorder-
+sentido : 221 : 0000
+sobre : 228 : 0001
+pode : 229 : 0010
+deve : 229 : 0011
+pensamento : 230 : 0100
+sistema : 234 : 0101
+modo : 258 : 0110
+condição : 267 : 0111
+priori : 269 : 1000
+mundo : 278 : 1001
+sujeito : 294 : 1010
+teoria : 368 : 1011
+quanto : 180 : 11000
+princípio : 188 : 11001
+maneira : 190 : 11010
+wittgenstein : 190 : 11011
+É : 191 : 11100
+vista : 191 : 11101
+imanente : 213 : 11110
+social : 213 : 11111
+
+__________________________________________________
+
+~~~> "conceito" word <~~~
+
+---> Basic tree <---
+
+-Preorder-
+princípio: 188
+maneira: 190
+wittgenstein: 190
+imanente: 213
+social: 213
+vista: 191
+segundo: 228
+pensamento: 230
+deve: 229
+pode: 229
+sobre: 228
+modo: 258
+mundo: 278
+priori: 269
+sujeito: 294
+teoria: 368
+condição: 267
+sistema: 234
+sentido: 221
+É: 191
+
+-Inorder-
+princípio: 188
+wittgenstein: 190
+imanente: 213
+social: 213
+vista: 191
+segundo: 228
+pensamento: 230
+deve: 229
+pode: 229
+sobre: 228
+modo: 258
+mundo: 278
+priori: 269
+sujeito: 294
+teoria: 368
+condição: 267
+sistema: 234
+sentido: 221
+É: 191
+maneira: 190
+
+-Posorder-
+wittgenstein: 190
+imanente: 213
+social: 213
+vista: 191
+segundo: 228
+pensamento: 230
+deve: 229
+pode: 229
+sobre: 228
+modo: 258
+mundo: 278
+priori: 269
+sujeito: 294
+teoria: 368
+condição: 267
+sistema: 234
+sentido: 221
+É: 191
+maneira: 190
+princípio: 188
+
+--- AVL tree ---
+
+-Preorder-
+sobre : 228 : 4
+É : 191 : 3
+maneira : 190 : 1
+princípio : 188 : 0
+wittgenstein : 190 : 0
+social : 213 : 2
+vista : 191 : 0
+sentido : 221 : 1
+imanente : 213 : 0
+condição : 267 : 3
+deve : 229 : 2
+pode : 229 : 1
+segundo : 228 : 0
+sistema : 234 : 1
+pensamento : 230 : 0
+modo : 258 : 0
+sujeito : 294 : 2
+priori : 269 : 1
+mundo : 278 : 0
+teoria : 368 : 0
+
+
+-Inorder-
+princípio : 188 : 0
+maneira : 190 : 1
+wittgenstein : 190 : 0
+É : 191 : 3
+vista : 191 : 0
+social : 213 : 2
+imanente : 213 : 0
+sentido : 221 : 1
+sobre : 228 : 4
+segundo : 228 : 0
+pode : 229 : 1
+deve : 229 : 2
+pensamento : 230 : 0
+sistema : 234 : 1
+modo : 258 : 0
+condição : 267 : 3
+priori : 269 : 1
+mundo : 278 : 0
+sujeito : 294 : 2
+teoria : 368 : 0
+
+
+-Posorder-
+princípio : 188 : 0
+wittgenstein : 190 : 0
+maneira : 190 : 1
+vista : 191 : 0
+imanente : 213 : 0
+sentido : 221 : 1
+social : 213 : 2
+É : 191 : 3
+segundo : 228 : 0
+pode : 229 : 1
+pensamento : 230 : 0
+modo : 258 : 0
+sistema : 234 : 1
+deve : 229 : 2
+mundo : 278 : 0
+priori : 269 : 1
+teoria : 368 : 0
+sujeito : 294 : 2
+condição : 267 : 3
+sobre : 228 : 4
+
+---> Huffman tree <---
+
+-Preorder-
+sobre : 228 : 0000
+segundo : 228 : 0001
+pode : 229 : 0010
+deve : 229 : 0011
+pensamento : 230 : 0100
+sistema : 234 : 0101
+modo : 258 : 0110
+condição : 267 : 0111
+priori : 269 : 1000
+mundo : 278 : 1001
+sujeito : 294 : 1010
+teoria : 368 : 1011
+princípio : 188 : 11000
+maneira : 190 : 11001
+wittgenstein : 190 : 11010
+É : 191 : 11011
+vista : 191 : 11100
+social : 213 : 11101
+imanente : 213 : 11110
+sentido : 221 : 11111
+
+
+-Inorder-
+sobre : 228 : 0000
+segundo : 228 : 0001
+pode : 229 : 0010
+deve : 229 : 0011
+pensamento : 230 : 0100
+sistema : 234 : 0101
+modo : 258 : 0110
+condição : 267 : 0111
+priori : 269 : 1000
+mundo : 278 : 1001
+sujeito : 294 : 1010
+teoria : 368 : 1011
+princípio : 188 : 11000
+maneira : 190 : 11001
+wittgenstein : 190 : 11010
+É : 191 : 11011
+vista : 191 : 11100
+social : 213 : 11101
+imanente : 213 : 11110
+sentido : 221 : 11111
+
+
+-Posorder-
+sobre : 228 : 0000
+segundo : 228 : 0001
+pode : 229 : 0010
+deve : 229 : 0011
+pensamento : 230 : 0100
+sistema : 234 : 0101
+modo : 258 : 0110
+condição : 267 : 0111
+priori : 269 : 1000
+mundo : 278 : 1001
+sujeito : 294 : 1010
+teoria : 368 : 1011
+princípio : 188 : 11000
+maneira : 190 : 11001
+wittgenstein : 190 : 11010
+É : 191 : 11011
+vista : 191 : 11100
+social : 213 : 11101
+imanente : 213 : 11110
+sentido : 221 : 11111
+
+__________________________________________________
+
