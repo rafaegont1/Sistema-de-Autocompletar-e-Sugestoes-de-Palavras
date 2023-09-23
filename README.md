@@ -144,7 +144,7 @@ A estratégia para remover um nó de uma árvore binária envolve três casos:
 
 1. Se $z$ possui dois filhos, então é necessário encontra o sucessor $y$, que estará na subárvore direita de $z$, para que $y$ possa então tomar o lugar de $z$. A ex-subárvore direita de $z$ se torna a nova subárvore direita de $y$.
 
-The procedure for deleting a given node ´ from a binary search tree T takes as arguments pointers to T and ´. It organizes its cases a bit differently from the three cases outlined previously by considering the four cases shown in Figure 12.4.
+A função para remover o nó $z$ de uma árvore binária recebe como argumentos ponteiros para $T$ e $z$.
 
 - Se $z$ não tiver filho esquerdo, então substituímos $z$ por seu filho direito, que pode ou não ser $NIL$. Quando o filho certo de $z$ é $NIL$, este caso trata da situação em que $z$ não tem filhos. Quando o filho certo de $z$ não é $NIL$, este caso trata da situação em que $z$ tem apenas um filho, que é seu filho certo
 
